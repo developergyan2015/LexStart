@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{   font-family: 'ProximaNova-Regular'; font-size:12px; color:#411826; }
+img{ max-width:100%; height:auto; }
+.header{ background:url(../img/header.jpg) top center no-repeat; min-height:334px; background-size:cover; -webkit-background-size:cover;  -moz-background-size:cover;  -o-background-size:cover;  -ms-background-size:cover; }
+.header .top-header{ margin-top:50px;  }
+.top-header > .row{ margin:0px; }
+.top-header > .row > [class*='col-']{ padding:0px; }
+.nav-outer .navbar-nav > li > a{ padding:0px; line-height:34px;  font-family: 'ProximaNova-Bold'; color:rgba(65, 24, 38, 0.5);  font-size:18px;  }
+.nav-outer .navbar-nav > li > a:hover { background:none;  color:rgba(65, 24, 38, 1); text-decoration:underline;  }
+.nav-outer ul li {padding: 0px 15px;}
+.nav-outer  ul li:first-child{ padding-left:0px; }
+.nav-outer ul li:last-child{ padding-right:0px; }
+.top-header ul.account{ list-style:none; padding:0px; margin:0px; }
+.top-header ul.account li:first-child {float:left;   }
+.top-header ul.account li:last-child {float:right; }
+.nav-outer .navbar{ margin-bottom:0px; }
+.bottom-header h1{ color:#412118; font-size:35px; text-align:center; line-height:42px;  margin-top:80px; }
+.bottom-header h1 span{ background:#f0ddb1; padding:4px 10px; }
+.bottom-header h1 strong{ font-family: 'ProximaNova-Semibold'; }
+
+.search{
+background: #ffaf2d; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYWYyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZiYWEyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmN2E0MWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffaf2d 0%, #fbaa26 50%, #f7a41e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffaf2d), color-stop(50%,#fbaa26), color-stop(100%,#f7a41e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffaf2d 0%,#fbaa26 50%,#f7a41e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffaf2d 0%,#fbaa26 50%,#f7a41e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffaf2d 0%,#fbaa26 50%,#f7a41e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffaf2d 0%,#fbaa26 50%,#f7a41e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf2d', endColorstr='#f7a41e',GradientType=0 ); /* IE6-8 */	
+}
+
+.or-line{ padding:100px 0px 80px; text-align:center; width:100%; position:relative;  }
+.or-line:after{ background:#d98a00; position:absolute; top:0px; left:50%; height:100%; width:1px; content:'';  }
+.or-line span{ border:1px solid #d98a00; padding:5px; border-radius:50%; position:relative; z-index:2; background:#ffaf2d; }
+.search label{ text-align:center; font-weight:normal; display:block; font-size:20px; color:#411826; margin:40px 0px 20px; }
+.search input[type='text'].form-control{ border:3px solid #ee9d15; border-radius:30px; font-style:italic; padding:10px 20px; outline:none; height:50px; box-shadow:none; }
+.search a.need-lawyer{display:block; font-size:20px; color:#fff; text-decoration:none; text-align:center;  cursor:pointer; background:#c14f28;  border:2px solid #a53715; padding:10px; border-radius:27px; margin-top:85px;  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.38);}
+.search-outer{ position:relative; width:100%; }
+.search-outer input[type='submit']{ background:url(../img/search-icon.png) center center no-repeat; border:none; outline:none;  position: absolute;
+top: 0px;
+right: 0px;
+height: 50px;
+width:50px;
+}
+.packages { background:#f3f3f3; padding:70px 0px 90px; }
+.packages h2{ font-size:36px; text-align:center; margin:0px 0px 70px; }
+.packages h2 strong{ font-weight:normal; font-family: 'ProximaNova-Semibold'; background:#f3edd2; padding:9px 5px;  }
+.package ul{ background:#fff; padding:0px; list-style:none;  padding:10px 18px; border-radius:3px; margin-bottom:30px;  }
+.package h3{ font-size:22px; color:#411826; font-family: 'ProximaNova-Bold'; margin-bottom:20px;  }
+.package ul li:last-child a{ border:none; } 
+.package ul li a{ display:block; line-height:50px; border-bottom:1px solid #e5e5e5;  font-size:16px; text-decoration:none; color:#411826; }
+.package ul li a:hover { text-decoration:underline; color:rgba(65, 24, 38, 0.57); }
+.package ul li a img { float:right; margin-top:15px; }
+.package a.add-to-cart{ display:block; padding:5px 20px; background:#fff; border:3px solid #dadada; border-radius:24px; color:#c9c9c9; font-size:18px;   font-family: 'ProximaNova-Bold'; text-decoration:none;  position:relative; }
+.package a.add-to-cart:after { background:url(../img/cart-basket.png) center center no-repeat; content:''; height:20px; width:20px; position:absolute; top:8px; right:11px; }
+.package a.add-to-cart:hover { color:#fff; background:#c14f28; border-color:#a53715; }
+.package a.add-to-cart:hover:after{ background:url(../img/cart-hover.png);  }
+.divider { height:1px; background:#d4d4d4; width:100%; margin:50px 0px; }
+.best-lawyer{ min-height:455px; background:url(../img/business-section.jpg) left top no-repeat #25190f; padding-top:65px; }
+.best-lawyer h2{ font-size:48px; color:#fff; text-align:center; margin-bottom:40px;  }
+.best-lawyer h2 strong{ background:#1e1001; padding:8px; font-family: 'ProximaNova-Bold'; }
+.best-lawyer h3{ color:#77675c; font-size:26px; text-align:center; margin-bottom:55px;  }
+.lawyer .image-outer{ max-width:135px; max-height:135px; border:2px solid #f7a41e; border-radius:50%; }
+.lawyer h4 a{ color:#f7a41e; font-size:20px;font-family: 'ProximaNova-Semibold'; text-decoration:none; border-bottom:1px solid #f7a41e;    }
+.lawyer h4{ margin:20px 0px 15px; }
+.lawyer p { font-size:16px; color:#fff; line-height:20px; }
+.lawyer > .row { margin-left:-8px; margin-right:-8px; }
+.lawyer > .row > [class*='col-']{ padding-left:8px; padding-right:8px; }
+.footer{ background:#f9f9f9; padding:40px 0px; }
+.footer .copyright{ color:#9e9e9e; font-size:16px; }
+.footer-nav ul{ list-style:none; padding:0px; text-align:right;  }
+.footer-nav ul li{ display:inline-block; margin-left:35px; } 
+.footer-nav ul li a { color:#9e9e9e; font-size:16px;}
