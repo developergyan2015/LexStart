@@ -7,7 +7,7 @@ img{ max-width:100%; height:auto; }
 .top-header > .row{ margin:0px; }
 .top-header > .row > [class*='col-']{ padding:0px; }
 .nav-outer .navbar-nav > li > a{ padding:0px; line-height:34px;  font-family: 'ProximaNova-Bold'; color:rgba(65, 24, 38, 0.5);  font-size:18px;  }
-.nav-outer .navbar-nav > li > a:hover { background:none;  color:rgba(65, 24, 38, 1); text-decoration:underline;  }
+.nav-outer .navbar-nav > li > a:hover, .nav-outer .navbar-nav > li.active > a { background:none;  color:rgba(65, 24, 38, 1); text-decoration:underline;  }
 .nav-outer ul li {padding: 0px 15px;}
 .nav-outer  ul li:first-child{ padding-left:0px; }
 .nav-outer ul li:last-child{ padding-right:0px; }
@@ -74,3 +74,54 @@ width:50px;
 .footer-nav ul{ list-style:none; padding:0px; text-align:right;  }
 .footer-nav ul li{ display:inline-block; margin-left:35px; } 
 .footer-nav ul li a { color:#9e9e9e; font-size:16px;}
+
+
+
+/*Ask a Lawyer*/
+.header.inner-page{ background:#fff7e9; }
+.inner-page h1{ text-align:center; margin-top:80px; }
+.inner-page h1 strong{  font-family: 'ProximaNova-Bold'; font-weight:normal; background:#fff3cc; padding:8px 5px; }
+.case-section{ padding-top:70px; min-height:1120px;  }
+.inner-wrap{ max-width:780px; margin:0px auto; }
+.case{ border:1px solid #e6e6e6; padding:25px; border-radius:10px;  }
+.case h2{ font-size:18px; color:#797979; font-family: 'ProximaNova-Bold'; margin:0px 0px 8px; padding:0px;  }
+.case strong.case-type{ display:block; position:relative; padding-left:20px; font-size:16px; color:#797979; font-weight:normal;   }
+.case strong.case-type:before {  width:9px; height:9px; background:#e6e6e6; border-radius:50%; content:''; position:absolute; left:0px; top:6px; }
+.case p{ font-size:16px; color:#797979;  margin:20px 0px 0px; }
+.case.urgent{ background:#63c774; border:1px solid #4cb160; }
+.case.urgent h2{ color:#fff; }
+.case.urgent strong.case-type { color:#fff; }
+.case p{ color:#fff; }
+.ask-form{  max-width:380px; margin:70px auto 0px; }
+.ask-form label{ font-weight:normal; font-size:16px; }
+.ask-form .control-label { font-size:18px; color:#797979;  font-family: 'ProximaNova-Bold'; }
+.ask-form input.form-control, .ask-form textarea.form-control{ border:none; border-radius:0px; outline:none; box-shadow:none; font-size:16px; color:#797979; padding:8px 0px; resize:none; }
+.ask-form .form-group{ border-bottom:1px solid #e6e6e6; margin-bottom:20px; padding-bottom:20px; }
+.ask-form .form-group:last-child{ border-bottom:none;}
+.ask-form input[type="radio"] {
+    display:none;
+}
+.ask-form input[type="radio"] + label {
+    color: #797979;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+.ask-form input[type="radio"] + label span {
+    display:inline-block;
+    width:9px;
+    height:9px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+.ask-form input[type="radio"] + label span {
+     background:url(../img/custom-radio.png) top center no-repeat; 
+}
+
+.ask-form input[type="radio"]:checked + label span{
+     background-position:bottom center; 
+}
+.ask-form input[type='submit']{ display:block; width:100%; outline:none; line-height:40px; border-radius:20px; border:1px solid #dadada; background:none; font-size:18px; color:#b2b2b2;   font-family: 'ProximaNova-Bold'; margin-top:60px;   }
