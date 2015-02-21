@@ -80,7 +80,8 @@ width:50px;
 /*Ask a Lawyer*/
 .header.inner-page{ background:#fff7e9; }
 .inner-page h1{ text-align:center; margin-top:80px; }
-.inner-page h1 strong{  font-family: 'ProximaNova-Bold'; font-weight:normal; background:#fff3cc; padding:8px 5px; }
+.inner-page h1 strong span {background:#fff3cc; padding:8px 5px; }
+.inner-page h1 strong{  font-family: 'ProximaNova-Bold'; font-weight:normal;  }
 .case-section{ padding-top:70px; min-height:1120px;  }
 .inner-wrap{ max-width:780px; margin:0px auto; }
 .case{ border:1px solid #e6e6e6; padding:25px; border-radius:10px;  }
@@ -125,3 +126,23 @@ width:50px;
      background-position:bottom center; 
 }
 .ask-form input[type='submit']{ display:block; width:100%; outline:none; line-height:40px; border-radius:20px; border:1px solid #dadada; background:none; font-size:18px; color:#b2b2b2;   font-family: 'ProximaNova-Bold'; margin-top:60px;   }
+
+
+/*FAQ*/
+.faq{ padding-top:90px; min-height:1500px;  }
+.faq-wrap.ui-accordion .ui-accordion-header .ui-accordion-header-icon{ display:none; }
+.faq-wrap.ui-accordion .ui-accordion-header{ padding:20px 48px 20px 0px; border:none; background:none;  outline:none; position:relative; border-top:#e6e6e6 1px solid;}
+.faq-wrap.ui-accordion .ui-accordion-header h3{ font-size:18px; color:#412118; font-family: 'ProximaNova-Bold';  }
+.faq-wrap.ui-accordion .ui-accordion-header:after{ width:27px; height:27px; background:url(../img/accordion-nav.png) top center no-repeat; content:''; position:absolute; right:0px; top:40px;}
+.faq-wrap.ui-accordion .ui-accordion-header.ui-accordion-header-active:after{ background-position:bottom center; }
+.faq-wrap.ui-accordion .ui-accordion-header p{ font-size:16px; color:#797979; line-height:26px; font-weight:normal; }
+.faq-wrap.ui-accordion .ui-accordion-content { background:none; padding:0px 48px 20px 0px; border:none; }
+.faq-wrap.ui-accordion .ui-accordion-content p{ font-size:16px; color:#797979; line-height:26px; font-weight:normal; }
+.faq-wrap.ui-widget{ border-bottom:1px solid #e6e6e6; margin-bottom:50px;  }
+
+/*lawyers*/
+.lawyers{ padding:85px 0px 100px; }
+.lawyers .lawyer { margin-bottom:130px; }
+.lawyers .lawyer h4{ margin-top:10px; }
+.lawyers .lawyer p{ color:#411826; line-height:26px; margin-bottom:25px; }
+.lawyers .lawyer a.contact-lawyer{ display:block; border:3px solid #a53715; border-radius:25px;  font-family: 'ProximaNova-Bold'; font-size:18px; color:#fff; text-decoration:none; text-align:center;  background:#c14f28; line-height:40px;  }
